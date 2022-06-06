@@ -1,0 +1,523 @@
+body {
+   background-color: aliceblue;
+}
+
+h1 {
+   font-family: 'Fredoka One', cursive;
+   font-size: 60px;
+   text-align: center;
+   color: rgb(82, 0, 0);
+}
+
+tr {
+   line-height: 70px;
+  font-size: 30px;
+}
+
+table {
+   text-align: center;
+   border-collapse: collapse;
+   margin: 140px;
+   margin-top: 20px;
+}
+
+tr:nth-child(1) {
+   background: linear-gradient(90deg, red, blue, yellow, orange, pink, white, green, black);
+   color: rgb(254, 236, 213);
+   text-shadow: 1px 1px 4px black;
+}
+
+td:nth-child(1) {
+   font-family: 'Fredoka One', cursive;
+}
+
+td:nth-child(2) {
+   text-shadow: 1px 2px 3px black;
+}
+
+td {
+   font-family: 'Quicksand', sans-serif;
+   color: white;
+}
+
+
+/* second row  */
+
+tr:nth-child(2) {
+   background-image: url(./Pictures/safari.jpeg);
+   background-attachment:fixed;
+   background-size: contain;
+}
+
+tr:nth-child(2) td:nth-child(1) {
+   font-size: 40px;
+   color: red;
+   font-weight: 600;
+   text-shadow: 1px 1px 3px black;
+}
+
+/* New Row  */
+
+tr:nth-child(3) {
+   background-image: url(./Pictures/seaport.jpeg);
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+ tr:nth-child(3) td:nth-child(1) {
+    font-size: 40px;
+    color: blue;
+    font-weight: 600;
+    text-shadow: 1px 1px 3px white;
+ }
+
+
+/* New Row  */
+
+tr:nth-child(4) {
+   background-image: url(./Pictures/comic-con.jpeg);
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+tr:nth-child(4) td:nth-child(1) {
+   font-size: 40px;
+   color: yellow;
+   font-weight: 600;
+   text-shadow: 1px 1px 3px black;
+}
+
+/* new row  */
+
+tr:nth-child(5) {
+   background-image: url(./Pictures/stone.jpeg);
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+tr:nth-child(5) td:nth-child(1) {
+   font-size: 40px;
+   color: orange;
+   font-weight: 600;
+   text-shadow: 1px 1px 3px black;
+}
+
+/* new row  */
+
+tr:nth-child(6) {
+   background-image: url(./Pictures/cafe21.jpeg);
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+tr:nth-child(6) td:nth-child(1) {
+   font-size: 40px;
+   color: violet;
+   font-weight: 600;
+   text-shadow: 1px 1px 3px black;
+}
+
+/* new row  */
+
+tr:nth-child(7) {
+   background-image: url(./Pictures/surf.jpeg);
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   line-height: 85px;
+}
+
+tr:nth-child(7) td:nth-child(1) {
+   font-size: 40px;
+   color: white;
+   font-weight: 600;
+   text-shadow: 1px 1px 3px black;
+}
+
+/* new row  */
+
+tr:nth-child(8) {
+   background-image: url(./Pictures/torrey.jpeg);
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+tr:nth-child(8) td:nth-child(1) {
+   font-size: 40px;
+   color: green;
+   font-weight: 600;
+   text-shadow: 1px 1px 3px black;
+}
+
+/* new row  */
+
+tr:nth-child(9) {
+   background-image: url(./Pictures/ghost.jpeg);
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+tr:nth-child(9) td:nth-child(1) {
+   font-size: 40px;
+   color: black;
+   font-weight: 600;
+   text-shadow: 1px 1px 3px white;
+}
+
+/* new row  */
+
+tr:nth-child(10) {
+   background-image: url(./Pictures/birch.jpeg);
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+tr:nth-child(10) td:nth-child(1) {
+   font-size: 40px;
+   color: rgb(255, 0, 0);
+   font-weight: 600;
+   text-shadow: 1px 1px 3px black;
+}
+
+/* new row  */
+
+tr:nth-child(11) {
+   background-image: url(./Pictures/mummy.jpeg);
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+tr:nth-child(11) td:nth-child(1) {
+   font-size: 40px;
+   color: navy;
+   font-weight: 600;
+   text-shadow: 1px 1px 3px white;
+}
+
+/* new row  */
+
+tr:nth-child(12) {
+   background-image: url(./Pictures/cat.jpeg);
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+tr:nth-child(12) td:nth-child(1) {
+   font-size: 40px;
+   color: gold;
+   font-weight: 600;
+   text-shadow: 1px 1px 3px black;
+}
+
+/* new row  */
+
+tr:nth-child(13) {
+   background-image: url(./Pictures/burger.jpeg);
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+tr:nth-child(13) td:nth-child(1) {
+   font-size: 40px;
+   color: rgb(238, 87, 32);
+   font-weight: 600;
+   text-shadow: 1px 1px 3px black;
+}
+
+/* new row  */
+
+tr:nth-child(14) {
+   background-image: url(./Pictures/shabu.jpg);
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+tr:nth-child(14) td:nth-child(1) {
+   font-size: 40px;
+   color: rgb(82, 0, 82);
+   font-weight: 600;
+   text-shadow: 1px 1px 3px white;
+}
+
+/* new row  */
+
+tr:nth-child(15) {
+   background-image: url(./Pictures/spring.jpg);
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+tr:nth-child(15) td:nth-child(1) {
+   font-size: 40px;
+   color: white;
+   font-weight: 600;
+   text-shadow: 1px 1px 3px black;
+}
+
+/* new row  */
+
+tr:nth-child(16) {
+   background-image: url(./Pictures/thrift.jpg);
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+tr:nth-child(16) td:nth-child(1) {
+   font-size: 40px;
+   color: rgb(6, 94, 6);
+   font-weight: 600;
+   text-shadow: 1px 1px 3px white;
+}
+
+/* new row  */
+
+tr:nth-child(17) {
+   background-image: url(./Pictures/fashion.jpg);
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+tr:nth-child(17) td:nth-child(1) {
+   font-size: 40px;
+   color: black(6, 94, 6);
+   font-weight: 600;
+   text-shadow: 1px 1px 3px white;
+}
+
+/* new row  */
+
+tr:nth-child(18) {
+   background-image: url(./Pictures/OB.jpg);
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+tr:nth-child(18) td:nth-child(1) {
+   font-size: 40px;
+   color: red;
+   font-weight: 600;
+   text-shadow: 1px 1px 3px black;
+}
+
+/* new row  */
+
+tr:nth-child(19) {
+   background-image: url(./Pictures/scuba.jpg);
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+tr:nth-child(19) td:nth-child(1) {
+   font-size: 40px;
+   color: rgb(167, 246, 255);
+   font-weight: 600;
+   text-shadow: 1px 1px 3px black;
+}
+
+/* new row  */
+
+tr:nth-child(20) {
+   background-image: url(./Pictures/casbah.jpg);
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+tr:nth-child(20) td:nth-child(1) {
+   font-size: 40px;
+   color: rgb(249, 249, 186);
+   font-weight: 600;
+   text-shadow: 1px 1px 3px black;
+}
+
+/* new row  */
+
+tr:nth-child(21) {
+   background-image: url(./Pictures/lego.jpg);
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+tr:nth-child(21) td:nth-child(1) {
+   font-size: 40px;
+   color: rgb(248, 146, 63);
+   font-weight: 600;
+   text-shadow: 1px 1px 3px black;
+}
+
+/* new row  */
+
+tr:nth-child(22) {
+   background-image: url(./Pictures/library.jpg);
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+tr:nth-child(22) td:nth-child(1) {
+   font-size: 40px;
+   color: rgb(247, 126, 145);
+   font-weight: 600;
+   text-shadow: 1px 1px 3px black;
+}
+
+/* new row  */
+
+tr:nth-child(23) {
+   background-image: url(./Pictures/grinch.jpg);
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+tr:nth-child(23) td:nth-child(1) {
+   font-size: 40px;
+   color: white;
+   font-weight: 600;
+   text-shadow: 1px 1px 3px black;
+}
+
+/* new row  */
+
+tr:nth-child(24) {
+   background-image: url(./Pictures/spreckels.jpg);
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+tr:nth-child(24) td:nth-child(1) {
+   font-size: 40px;
+   color: greenyellow;
+   font-weight: 600;
+   text-shadow: 1px 1px 3px black;
+}
+
+/* new row  */
+
+tr:nth-child(25) {
+   background-image: url(./Pictures/bike.jpg);
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+tr:nth-child(25) td:nth-child(1) {
+   font-size: 40px;
+   color: red;
+   font-weight: 600;
+   text-shadow: 1px 1px 3px black;
+}
+
+/* new row  */
+
+tr:nth-child(26) {
+   background-image: url(./Pictures/drivein.jpg);
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+tr:nth-child(26) td:nth-child(1) {
+   font-size: 40px;
+   color: rgb(197, 247, 255);
+   font-weight: 600;
+   text-shadow: 1px 1px 3px black;
+}
+
+/* new row  */
+
+tr:nth-child(27) {
+   background-image: url(./Pictures/race.jpg);
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+tr:nth-child(27) td:nth-child(1) {
+   font-size: 40px;
+   color: rgb(216, 208, 44);
+   font-weight: 600;
+   text-shadow: 1px 1px 3px black;
+}
+
+/* new row  */
+
+tr:nth-child(28) {
+   background-image: url(./Pictures/glide.jpg);
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+tr:nth-child(28) td:nth-child(1) {
+   font-size: 40px;
+   color: rgb(226, 128, 36);
+   font-weight: 600;
+   text-shadow: 1px 1px 3px black;
+}
+
+/* new row  */
+
+tr:nth-child(29) {
+   background-image: url(./Pictures/barrio.jpg);
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+tr:nth-child(29) td:nth-child(1) {
+   font-size: 40px;
+   color: rgb(255, 23, 232);
+   font-weight: 600;
+   text-shadow: 1px 1px 3px black;
+}
+
+/* new row  */
+
+tr:nth-child(30) {
+   background-image: url(./Pictures/dessert.jpg);
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+tr:nth-child(30) td:nth-child(1) {
+   font-size: 40px;
+   color: white;
+   font-weight: 600;
+   text-shadow: 1px 1px 3px black;
+}
+
+/* new row  */
+
+tr:nth-child(31) {
+   background-image: url(./Pictures/hash.jpg);
+   background-attachment:fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+tr:nth-child(31) td:nth-child(1) {
+   font-size: 40px;
+   color: rgb(192, 255, 17);
+   font-weight: 600;
+   text-shadow: 1px 1px 3px black;
+}
